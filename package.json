@@ -1,0 +1,23 @@
+{
+  "name": "essential-docs-hub",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/vue": "^1.0.31",
+    "gh-pages": "^6.2.0",
+    "vitepress": "^1.5.0",
+    "vue": "^3.5.12"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "deploy": "vitepress build docs && gh-pages -d docs/.vitepress/dist"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "vue-tweet": "^2.3.1"
+  }
+}
