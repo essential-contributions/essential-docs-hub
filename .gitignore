@@ -6,6 +6,9 @@ yarn-error.log*
 # Dependency directories
 node_modules/
 
+# Vite cache
+.vitepress/cache
+
 # MacOS system files
 .DS_Store
 
