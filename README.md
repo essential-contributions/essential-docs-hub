@@ -29,11 +29,4 @@ The following resources are integrated into the hub:
 
 ## 📢 Feedback and Contributions
 
-We value your feedback! If you notice outdated information or have suggestions for improvement, please contact the documentation team or create a pull request with your proposed changes.
-
-For any issues or additional help, feel free to open a ticket in our support system.
-
---- 
-
-**Happy Documenting!**  
-The Documentation Team  
+We value your feedback! If you notice outdated information or have suggestions for improvement, create a pull request with your proposed changes.
