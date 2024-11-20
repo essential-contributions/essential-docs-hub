@@ -6,12 +6,6 @@ yarn-error.log*
 # Dependency directories
 node_modules/
 
-# VitePress build output
-.vitepress/dist/
-
-# Vite cache
-.vitepress/cache/
-
 # MacOS system files
 .DS_Store
 
