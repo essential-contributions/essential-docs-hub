@@ -196,32 +196,32 @@
 
 /* Primary Button Styling */
 .hero-button.primary {
-  background-color: rgba(255, 69, 0, 0.2); /* Fiery Red with transparency */
-  border: 1px solid rgba(255, 69, 0, 0.4); /* Fiery Red border */
+  background-color: rgba(255, 255, 255, 0.2); /* Fiery Red with transparency */
+  border: 1px solid rgba(255, 255, 255, 0.4); /* Fiery Red border */
 }
 
 .hero-button.primary:hover {
-  background-color: rgba(255, 69, 0, 0.3); /* Slightly more opaque on hover */
+  background-color: rgba(255, 255, 255, 0.3); /* Slightly more opaque on hover */
   transform: translateY(-2px);
 }
 
 .hero-button.primary:active {
-  background-color: rgba(255, 69, 0, 0.2); /* Maintain original on active */
+  background-color: rgba(255, 255, 255, 0.2); /* Maintain original on active */
 }
 
 /* Secondary Button Styling */
 .hero-button.secondary {
-  background-color: rgba(255, 140, 0, 0.2); /* Fiery Orange with transparency */
-  border: 1px solid rgba(255, 140, 0, 0.4); /* Fiery Orange border */
+  background-color: rgba(0, 0, 0, 0.2); /* Fiery Orange with transparency */
+  border: 1px solid rgba(255, 255, 255, 0.4); /* Fiery Orange border */
 }
 
 .hero-button.secondary:hover {
-  background-color: rgba(255, 140, 0, 0.3); /* Slightly more opaque on hover */
+  background-color: rgba(255, 255, 255, 0.3); /* Slightly more opaque on hover */
   transform: translateY(-2px);
 }
 
 .hero-button.secondary:active {
-  background-color: rgba(255, 140, 0, 0.2); /* Maintain original on active */
+  background-color: rgba(255, 255, 255, 0.2); /* Maintain original on active */
 }
 
 /* Feature Cards */

@@ -9,7 +9,7 @@ export default defineConfig({
 // --- Basic Site Information ---
   title: "Essential Docs",           // Site title displayed in the browser tab
   description: "Essential Documentation",  // Site meta description for search engines
-  base: '/essential-docs-hub/',          // Base URL for the site
+  base: '/',          // Base URL for the site
   // --- Theme and Navigation Settings ---
   themeConfig: {
     
