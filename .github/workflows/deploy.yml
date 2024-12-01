@@ -43,8 +43,8 @@ jobs:
       - name: Build with VitePress
         run: yarn docs:build
 
-      - name: Create CNAME file
-        run: echo 'docs.essential.builders' > docs/.vitepress/dist/CNAME
+      # - name: Create CNAME file
+      #   run: echo 'docs.essential.builders' > docs/.vitepress/dist/CNAME
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
