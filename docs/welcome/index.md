@@ -17,7 +17,7 @@ Ready to explore or start building? This docs hub has everything you need to div
 <div class="feature-cards">
 
   <!-- Learn Declarative -->
-  <a href="/essential-docs-hub/learn/declarative-vs-imperative/" class="feature-card">
+  <a href="/learn/declarative-vs-imperative/" class="feature-card">
     <img src="/images/feature1.png" alt="Feature 1">
     <div class="feature-content">
       <h4>Learn Declarative</h4>
@@ -25,7 +25,7 @@ Ready to explore or start building? This docs hub has everything you need to div
   </a>
 
   <!-- Discover Essential -->
-  <a href="/essential-docs-hub/protocol/overview" class="feature-card">
+  <a href="/protocol/overview" class="feature-card">
     <img src="/images/feature2.png" alt="Feature 2">
     <div class="feature-content">
       <h4>Discover Essential</h4>
@@ -33,7 +33,7 @@ Ready to explore or start building? This docs hub has everything you need to div
   </a>
   
   <!-- Start Building -->
-  <a href="/essential-docs-hub/build/getting-started" class="feature-card">
+  <a href="/build/getting-started" class="feature-card">
     <img src="/images/feature3.png" alt="Feature 3">
     <div class="feature-content">
       <h4>Start Building</h4>
