@@ -1,15 +1,16 @@
-// docs/.vitepress/config.mts
+// docs/.vitepress/config.ts
 import { defineConfig } from 'vitepress'
 
-// Vitepress Site Configuration
+// VitePress Site Configuration
 // https://vitepress.dev/reference/site-config
 
 export default defineConfig({
 
-// --- Basic Site Information ---
+  // --- Basic Site Information ---
   title: "Essential Docs",           // Site title displayed in the browser tab
   description: "Essential Documentation",  // Site meta description for search engines
-  base: '/',          // Base URL for the site
+  base: '/essential-docs-hub/',      // Set base to the repository name
+
   // --- Theme and Navigation Settings ---
   themeConfig: {
     
@@ -25,7 +26,7 @@ export default defineConfig({
       {
         text: 'Overview',          // Sidebar heading for Introduction
         items: [
-          { text: 'Welcome to Essential', link: '/welcome',}
+          { text: 'Welcome to Essential', link: '/welcome', }
         ]
       },
       // --- Learn Section ---
@@ -135,7 +136,7 @@ export default defineConfig({
                         collapsed: true,
                         items: [
                           { text: 'Dependencies', link: '/build/getting-started/example/cargo/dependencies' },   // Dependency setup
-                          { text: 'ABI Generation', link: '/build/getting-started/example/cargo/abi-gen' },                   // Key management
+                          { text: 'ABI Generation', link: '/build/getting-started/example/cargo/abi-gen' },                   // ABI generation
                           { text: 'Keys', link: '/build/getting-started/example/cargo/keys' },                   // Key management
                           { text: 'Extract Count', link: '/build/getting-started/example/cargo/extract-count' }, // Data extraction
                           { text: 'Create Solution', link: '/build/getting-started/example/cargo/create-solution' }, // Create solutions
@@ -310,10 +311,10 @@ export default defineConfig({
     // --- Footer Social Links ---
     socialLinks: [
       { icon: 'github', link: 'https://github.com/essential-contributions' },   // GitHub repository link
-      { icon: 'x', link: 'https://x.com/intentessential' },   // X account link
+      { icon: 'x', link: 'https://x.com/intentessential' },   // Twitter account link
       { icon: 'discord', link: 'https://discord.gg/essential-builders' },   // Discord server link
       { icon: 'linkedin', link: 'https://www.linkedin.com/company/essentialbuilders' },   // LinkedIn page link
-      { icon: 'files', link: 'https://blog.essential.builders' },   // Blog link
+      { icon: 'book', link: 'https://blog.essential.builders' },   // Blog link
     ]
   }
 })
