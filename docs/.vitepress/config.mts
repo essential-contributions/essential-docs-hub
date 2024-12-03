@@ -13,11 +13,11 @@ export default defineConfig({
 
   // --- Add Favicon and Meta Tags ---
   head: [
-    ['link', { rel: 'icon', href: '/essential-docs-hub/favicon.svg' }],
+    ['link', { rel: 'icon', href: '/favicon.svg' }],
     // Open Graph Meta Tags
     ['meta', { property: 'og:title', content: 'Essential Docs' }],
     ['meta', { property: 'og:description', content: 'Your guide to Essential Documentation.' }],
-    ['meta', { property: 'og:image', content: '/essential-docs-hub/card-image.png' }], 
+    ['meta', { property: 'og:image', content: '/card-image.png' }], 
     ['meta', { property: 'og:url', content: 'https://docs.essential.builders/' }], 
     ['meta', { property: 'og:type', content: 'website' }],
 
@@ -25,7 +25,7 @@ export default defineConfig({
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:title', content: 'Essential Docs' }],
     ['meta', { name: 'twitter:description', content: 'Your guide to Essential Documentation.' }],
-    ['meta', { name: 'twitter:image', content: '/essential-docs-hub/card-image.png' }]
+    ['meta', { name: 'twitter:image', content: '/card-image.png' }]
   ],
   // --- Theme and Navigation Settings ---
   themeConfig: {
