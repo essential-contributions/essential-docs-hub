@@ -22,7 +22,7 @@ export default defineConfig({
     ['meta', { property: 'og:type', content: 'website' }],
 
     // Twitter Card Meta Tags
-    ['meta', { name: 'twitter:card', content: 'summary' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:title', content: 'Essential Docs' }],
     ['meta', { name: 'twitter:description', content: 'Your guide to Essential Documentation.' }],
     ['meta', { name: 'twitter:image:src', content: '/card-image.png' }]
