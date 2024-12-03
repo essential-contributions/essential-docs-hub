@@ -25,7 +25,7 @@ export default defineConfig({
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:title', content: 'Essential Docs' }],
     ['meta', { name: 'twitter:description', content: 'Your guide to Essential Documentation.' }],
-    ['meta', { name: 'twitter:image:src', content: '/card-image.png' }]
+    ['meta', { name: 'twitter:image:src', content: 'https://docs.essential.builders/card-image.png' }]
   ],
   // --- Theme and Navigation Settings ---
   themeConfig: {
