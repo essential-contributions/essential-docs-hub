@@ -17,7 +17,7 @@ export default defineConfig({
     // Open Graph Meta Tags
     ['meta', { property: 'og:title', content: 'Essential Docs' }],
     ['meta', { property: 'og:description', content: 'Your guide to Essential Documentation.' }],
-    ['meta', { property: 'og:image', content: '/card-image.png' }], 
+    ['meta', { property: 'og:image', content: 'https://docs.essential.builders/card-image.png' }], 
     ['meta', { property: 'og:url', content: 'https://docs.essential.builders/' }], 
     ['meta', { property: 'og:type', content: 'website' }],
 
