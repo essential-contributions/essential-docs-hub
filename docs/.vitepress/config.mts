@@ -17,7 +17,7 @@ export default defineConfig({
     // Open Graph Meta Tags
     ['meta', { property: 'og:title', content: 'Essential Docs' }],
     ['meta', { property: 'og:description', content: 'Your guide to Essential Documentation.' }],
-    ['meta', { property: 'og:image', content: 'https://docs.essential.builders/card-image.png' }], 
+    ['meta', { property: 'og:image', content: 'https://docs.essential.builders/meta-card.png' }], 
     ['meta', { property: 'og:url', content: 'https://docs.essential.builders/' }], 
     ['meta', { property: 'og:type', content: 'website' }],
 
@@ -25,7 +25,11 @@ export default defineConfig({
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:title', content: 'Essential Docs' }],
     ['meta', { name: 'twitter:description', content: 'Your guide to Essential Documentation.' }],
-    ['meta', { name: 'twitter:image', content: 'https://docs.essential.builders/meta-card.png' }]
+    ['meta', { name: 'twitter:site', content: '@intentessential' }],
+    ['meta', { name: 'twitter:url', content: 'https://docs.essential.builders/' }],
+    ['meta', { name: 'twitter:image', content: 'https://docs.essential.builders/meta-card.png' }],
+    ['meta', { property: 'og:image:width', content: '1200' }],
+    ['meta', { property: 'og:image:height', content: '675' }],
   ],
   // --- Theme and Navigation Settings ---
   themeConfig: {
