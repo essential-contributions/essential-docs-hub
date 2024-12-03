@@ -13,7 +13,19 @@ export default defineConfig({
 
   // --- Add Favicon ---
   head: [
-    ['link', { rel: 'icon', href: '/essential-docs-hub/favicon.svg' }]  // Adjusted path for base
+    ['link', { rel: 'icon', href: '/essential-docs-hub/favicon.svg' }],
+    // Open Graph Meta Tags
+    ['meta', { property: 'og:title', content: 'Essential Docs' }],
+    ['meta', { property: 'og:description', content: 'Your guide to Essential Documentation.' }],
+    ['meta', { property: 'og:image', content: '/essential-docs-hub/card-image.png' }], 
+    ['meta', { property: 'og:url', content: 'https://docs.essential.builders/' }], 
+    ['meta', { property: 'og:type', content: 'website' }],
+
+    // Twitter Card Meta Tags
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:title', content: 'Essential Docs' }],
+    ['meta', { name: 'twitter:description', content: 'Your guide to Essential Documentation.' }],
+    ['meta', { name: 'twitter:image', content: '/essential-docs-hub/card-image.png' }]
   ],
 
   // --- Theme and Navigation Settings ---
