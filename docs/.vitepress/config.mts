@@ -11,6 +11,11 @@ export default defineConfig({
   description: "Essential Documentation",  // Site meta description for search engines
   base: '/essential-docs-hub/',      // Set base to the repository name
 
+  // --- Add Favicon ---
+  head: [
+    ['link', { rel: 'icon', href: '/essential-docs-hub/favicon.svg' }]  // Adjusted path for base
+  ],
+
   // --- Theme and Navigation Settings ---
   themeConfig: {
     
